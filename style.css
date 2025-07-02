@@ -59,3 +59,12 @@ body {
     color: purple;
   }
   
+    /* === Task 4: Emphasis and importance === */
+    strong {
+      color: purple; 
+    }
+  
+    em {
+      color: gray; 
+      font-style: italic;
+    }
