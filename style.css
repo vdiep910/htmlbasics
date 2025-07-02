@@ -1,0 +1,61 @@
+/* === Shared Base Styles (present in all 3 tasks) === */
+body {
+    background-color: #fff;
+    color: #333;
+    font:
+      1em / 1.4 Helvetica Neue,
+      Helvetica,
+      Arial,
+      sans-serif;
+    padding: 1em;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: green; /* changed from purple to green */
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+    margin: 0;
+    color: darkgreen; /* changed from purple to darkgreen */
+  }
+  
+  p {
+    color: gray;
+    margin: 0.5em 0;
+    font-size: 1.05em; /* added slight font size increase */
+  }
+  
+  /* === Task 2: List styling === */
+  ol {
+    border: 2px solid navy; /* changed from purple to navy */
+  }
+  
+  ul {
+    border: 2px dashed orange; /* changed from solid to dashed */
+  }
+  
+  ol,
+  ul {
+    padding: 10px 20px; /* changed from 5px to 10px */
+    border-radius: 6px;  /* changed from 4px to 6px */
+  }
+  
+  /* === Task 3: Description list styling === */
+  dl {
+    color: gray;
+    margin: 0.5em 0;
+  }
+  
+  dt {
+    font-weight: bold;
+    color: purple;
+  }
+  
